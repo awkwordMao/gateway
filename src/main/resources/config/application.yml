@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gateway
+  rabbitmq:
+    port: 5672
+    username: shiyue
+    password: shiyue
+    host: 10.0.0.175
+
+server:
+  port: 8081
