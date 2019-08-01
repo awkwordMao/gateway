@@ -1,6 +1,5 @@
 package shiyue.jery.gateway.rabbitmq.component;
 
-import com.rabbitmq.http.client.domain.ExchangeType;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;

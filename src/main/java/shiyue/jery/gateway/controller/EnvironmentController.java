@@ -17,7 +17,7 @@ public class EnvironmentController {
 
     @GetMapping("/getvalue")
     public String getValue(){
-        System.out.println(environment.getProperty("spring.application.name"));
-        return environment.getProperty("spring.application.name") + " = value";
+        System.out.println(environment.getProperty("my.name"));
+        return environment.getProperty("my.name") + " = value";
     }
 }
