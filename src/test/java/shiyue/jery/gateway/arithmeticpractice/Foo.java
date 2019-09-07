@@ -47,3 +47,7 @@ public class Foo {
         printThird.run();
     }
 }
+
+abstract class Uiio {
+
+}
