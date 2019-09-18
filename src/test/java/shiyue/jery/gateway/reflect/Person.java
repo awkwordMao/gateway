@@ -12,6 +12,11 @@ public class Person {
         System.out.println("我是个人");
     }
 
+
+    public String say(String ss) {
+        return "";
+    }
+
     public String getName() {
         return name;
     }

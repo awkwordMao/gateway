@@ -1,8 +1,6 @@
 package shiyue.jery.gateway.threadtest;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.*;
 
 /**
  * @author Jery
@@ -13,5 +11,13 @@ public class ThreadPoolTest {
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(10);
 
 
+    }
+}
+
+class lll implements Callable {
+
+    @Override
+    public Object call() throws Exception {
+        return null;
     }
 }

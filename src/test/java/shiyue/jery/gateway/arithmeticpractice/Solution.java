@@ -301,6 +301,35 @@ public class Solution {
         return ans;
     }
 
+    public boolean method0() {
+        int[][] array = {{1, 2, 3}, {2, 3, 4}, {3, 4, 5}};
+        int target = 3;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] == target) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Test
+    public void method2() {
+        Random random = new Random();
+        List<Integer> integers = new ArrayList<Integer>();
+        for (int i = 0; i < 100; i++) {
+            int ir = random.nextInt(100);
+            integers.add(ir);
+        }
+        integers.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 - o2;
+            }
+        });
+
+    }
 
 
 

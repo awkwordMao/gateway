@@ -22,6 +22,15 @@ public class PredicateTest {
         //输出true,false
         System.out.println(predicateInt.test(5));
         System.out.println(predicateInt.test(-1));
+
+        char c = '和';
+        String str = "和";
+        char[] chars = str.toCharArray();
+        System.out.println(chars.length);
+        System.out.println(str.getBytes().length);
+        System.out.println(c);
+
+        System.out.println(1 % 5);
     }
 
 
